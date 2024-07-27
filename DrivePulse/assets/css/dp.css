@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    overflow-x: hidden;
+    background:rgb(0, 0, 0, 0.9)
+}
+
+
+/* .navbar */
+
+.navbar{
+    display: inline-flex;
+    width: 100%;
+    height: 7vw;
+    border-bottom: 1px solid rgb(0, 0, 0,0.2);
+    align-items: center;
+    padding: 0 30px;
+    /* background:linear-gradient(120deg, #000000, #313030, #191818); */
+}
+
+.navbar img{
+    display: inline-flex;
+    width: 5.5vw;
+    height: 5.5vw;
+}
+
+
+.navbar .logo-name{
+    color: white;
+    font-family: "Cooper Black";
+    font-weight: 700;
+    max-lines: 5vw;
+    padding-left: 0.4vw;
+    font-size: 2.6vw;
+    text-shadow: aqua 0 0 10px;
+    
+}
+
+.navbar i a{
+    font-family: arial;
+    color: black;
+    font-size: 1.3vw;
+    font-weight: 100;
+}
+
+.navbar .address{
+    color: white;
+    margin-left: 4.4vw;
+}
+
+.navbar .address i{
+    font-size: 1.6vw;;
+}
+
+.navbar .address a{
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 550;
+}
+
+.navbar .search{
+    background: #fff;
+    width: 40vw;
+    height: 3vw;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 0 6px 0 6px;    
+    margin-left: 4.5vw;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .search i{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 5px;
+}
+
+.navbar .search-bar{
+    width: 40vw;
+    height: 3vw;
+    border: none;  
+    background: transparent;
+}
+
+.navbar .search-bar::placeholder{
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    
+}
+
+.navbar .box3 button{
+    border: none;
+    background: transparent;
+    font-size: 1.4vw;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 1vw;
+    padding: 5px;
+}
+
+.navbar .box3 .b2:hover {
+    border: 1px;
+    border-radius: 20px;
+    background: #4b4b4b;
+    color: white;
+}
+
+.navbar .box3 button a:hover{
+    color: white;
+}
+.navbar .box3 .b1 .ri-wallet-3-fill{
+    color: white;
+    font-size: 2vw;
+    margin-left: 2.9vw;
+}
+
+.navbar .box3 .ri-account-circle-fill{
+    font-size: 2vw;
+    color: white;
+}
+
+.navbar .box3 a{
+    font-weight: 650;
+    font-size: 1.5vw;
+    color: rgb(255, 255, 255);
+}
+
+
+.navbar .search:hover{
+    outline: 1px solid white;
+    
+}
+
+ /* welcome */
+
+.welcome{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    height: 0.5vw;
+    position: static;
+}
+
+.welcome marquee{
+    color: rgb(255, 255, 255);
+    word-spacing: 0.2vw;
+    font-size: 1.5vw;
+}
+.welcome marquee span{
+    font-weight: 800;
+
+}
+
+
+
+/* choose details */
+
+.bg-img1 img{
+    width: 100%;
+    height: 50vw;
+    position: relative;
+}
+
+.bg-img1 .search-area{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50vw;
+    height: 30vw;
+    border: 1px solid white;
+    background: black;
+    position: absolute;
+}
+
+
+ .main-cont{
+    background: url(https://www.bing.com/th/id/OGC.fa360f00dd7033dd754c82b3e01aab2a?pid=1.7&rurl=https%3a%2f%2fassets.zyrosite.com%2fmP4vjxe2WvSxQKvX%2fbmw_1623910649216-mnlyjPBOBDF7wKza.gif&ehk=Jvb%2btedMrFBTtpgQBjIRkhUb8c%2bg8LXB7KM5hhlwsdM%3d);
+    background-position: center;
+    box-shadow: 0 0 8px 2px rgba(0, 162, 255, 0.5) inset;
+    background-repeat: no-repeat;
+    margin-left: 9vw;
+    margin-top: 2vw;
+    width: 80%;  
+    height:28vh;
+    background-size: cover;
+    padding: 10px 2px;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.main-cont .text-box {
+    display: flex;
+    /* padding: 10px 10px; */
+    border-radius: 10px;
+    position: relative;
+    margin-top: 5vh;
+}
+
+ .main-cont .text-box h3{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Sitka Small Semibold;
+    font-size: 3vw;
+    line-height: 3vw;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
+
+.form-group {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.form-group input {
+    height: 2.1vh;
+    width: 8vw;
+}
+
+.form-group select{
+    height: 2.6vw;
+    width: 10vw;
+}
+
+#city{
+    font-size: 0.8vw;
+}
+
+.form-group select option{
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(255, 255, 255,0.6);
+}
+
+input, select {
+    width: 8vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+
+.main-cont .text-box button {
+    background: transparent;
+    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.5) inset;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 2.8vw;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+
+
+.main-cont .text-box  button:hover {
+    background-color: rgb(184, 184, 184, 0.5);
+}
+
+
+
+
+/* traffic-lights */
+
+.t-lights{
+    margin-top: 2.5vw;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.t-lights .red{
+    width:4vw;
+    height:4vw;
+    border: none;
+    border-radius: 50%;
+    background: rgb(255, 0, 0, 0.8);
+    box-shadow: 0 0 40px 1px rgb(255, 0, 0, 0.8);
+}
+.t-lights .yellow{
+    width:4vw;
+    height:4vw;
+    border: none;
+    border-radius: 50%;
+    background: rgb(255, 255, 0, 0.8);
+    box-shadow: 0 0 40px 1px rgb(255, 255, 0, 0.8);
+}
+.t-lights .green{
+    width:4vw;
+    height:4vw;
+    border: none;
+    border-radius: 50%;
+    background: rgb(0, 128, 0, 0.8);
+    box-shadow: 0 0 40px 1px rgb(0, 128, 0, 0.8);
+}
+
+
+
+/* notes */
+
+.notes{
+    
+    width: 100%;
+    height: 180px;
+    margin-top: 2vw;
+}
+
+.notes h9{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5vw;
+    font-family: Sitka Small Semibold;
+    color: rgb(255, 255, 255,0.7);
+}
+
+.notes h9 p{
+    font-weight: 800;
+}
+
+
+.notes h9 p:hover{
+    color: #868686;
+}
+
+.main-container{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.notes .main-container .box{
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    height: 16vw;
+    background: linear-gradient(45deg,#696969,#ffffff,#727272);
+    margin-left: 7.5vw;
+    margin-top: 2vw;
+}   
+
+.box i{
+    font-size: 4vw;
+    display: flex;
+    margin-top: 30px;
+    line-height: 12vh;
+
+}
+.box{
+    display:flexbox;
+    flex-direction: column;
+    box-shadow: 10px 15px 10px 1px rgba(0, 0, 0, 0.3) ;
+    border: none;
+    font-size: 1.2vw;
+    font-family: arial;
+    text-align: center;
+    padding: 0 4px;
+}
+
+ .box:hover{
+        transform: scale(0.9);
+        transition: 200ms;
+}
+
+
+.box strong{
+    font-weight: 800;
+}
+
+
+/* anything */
+
+
+
+ .details{
+    width: 100%;
+    height: 17vh;
+    background:linear-gradient(45deg, #525252,#868686,#414040);
+    margin-top: 30vh;
+    
+}
+
+.details .d1 {
+    width: 10vw;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.8vw;
+    color: white;
+    margin-left: 8vw;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+
+.details .d1 h9{
+    font-size: 1.3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.any2{
+    width: 100%;
+    height: 30vh;
+}
+
+
+/* other-details */
+
+section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.rent-process h2{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255, 0.8);
+}
+
+
+.steps-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step{
+    background-color: rgb(185, 185, 185, 0.2            );
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 1.4vw;
+    font-family: "baloo bhai 2";
+    font-weight: 600;
+}
+
+.step i{
+    margin-bottom: 10px;
+    font-size: 3vw;
+    color: rgb(255, 255, 255,0.7);
+}
+
+.step p{
+    color: rgb(255, 255, 255,0.7);
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.step a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.step:hover{
+    transform: scale(1.01);
+    transition: 200ms;
+}
+
+.step a:hover {
+    text-decoration: underline;
+}
+
+.rent-process .steps-container hr{
+    height: 25vh;
+    margin-top:  0.5vw;
+}
+
+
+
+
+
+.xyz{
+    height: 20vh;
+}
+/* keyframes/media-queries */
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .navbar{
+        height: 9vh;
+    }
+
+    .navbar .logo-name{
+        font-size: 2vh;
+    }
+
+    .navbar .search{
+        width: 25vw;
+        height: 2vh;
+    }
+
+}
